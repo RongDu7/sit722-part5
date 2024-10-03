@@ -2,7 +2,7 @@
 
 terraform {
   backend "azurerm" {
-    resource_group_name  = "deakinuni"
+    resource_group_name  = "rongdu1234"
     storage_account_name = "terraformbackendmason"
     container_name       = "terraform"
     key                  = "prod.terraform.tfstate"
